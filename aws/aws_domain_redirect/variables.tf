@@ -25,7 +25,7 @@ variable "viewer_https_only" {
   description = "Set this to `false` if you need to support insecure HTTP access for clients, in addition to HTTPS"
   default     = true
 }
-
+#comment
 variable "redirect_permanently" {
   description = "Which HTTP status code to use for the redirect; if `true`, uses `301 Moved Permanently`, instead of `302 Found`"
   default     = false
